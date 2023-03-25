@@ -1,5 +1,5 @@
 # stage 1: build
-FROM golang:1.10 as builder
+FROM golang:1.20 as builder
 LABEL stage=intermediate
 
 ARG dregsy_version
